@@ -1,12 +1,9 @@
 # README.MD
-This a basic deployer script that deploys data from git, installs or updates dependencies using composer and import database from 0 or update it.
+This a script that checks if the php files of a project has not syntax errors
 
 ## Installation
-Download from github and execute composer install and create and script that instantiates the class miniDeployer.php and call to the "deployProject()" method.
+Download from github and place the file into folder to be analyzed
 
-## MySQL importation
-There are two ways to import mysql:
+## Excecution
 
--The whole database: The sql file must contain the "CREATE DATABASE" sentence.
--If the database already exists just add the sentence "USE <databaseName>" at the beginning of sql file.
--If database does not be to update don't include the mySql section.
+Open console and just ejecute the script phpSyntaxChecker.php
