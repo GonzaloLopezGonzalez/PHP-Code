@@ -58,6 +58,5 @@ class phpSyntaxChecker
       }
 }
 
-
-$pruebas = new phpSyntaxChecker();
-$pruebas->analyzePhpFilesSyntax();
+$syntaxAnalyser = new phpSyntaxChecker();
+$syntaxAnalyser->analyzePhpFilesSyntax();
